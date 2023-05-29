@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book-info {
+    font-family:PT Serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.book-cover img {
+    max-width: 300px;
+    height: auto;
+}
+
+.book-description {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

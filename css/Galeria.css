@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery {
+    margin-bottom: 30px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}

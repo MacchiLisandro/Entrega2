@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .col-md-6 {
+  border-radius: 10px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 20px;
+}
+
+h3 {
+  color: azure;
+}
+
+p {
+  color: aliceblue;
+}
+
+.container .col-md-6 img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Añadido para ajustar las imágenes al contenedor */
+}
+
+.container .col-md-6 h3,
+.container .col-md-6 p {
+  text-align: center;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden; /* Añadido para evitar desbordamiento del video */
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
