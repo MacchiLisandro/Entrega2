@@ -49,7 +49,7 @@ video {
     z-index: -1;
 }
 
-/* Media queries para vista móvil */
+/* Media queries para vista mov */
 @media (max-width: 768px) {
     header {
         padding: 10px;
