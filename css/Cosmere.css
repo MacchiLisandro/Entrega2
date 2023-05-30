@@ -48,3 +48,22 @@ video {
     object-fit: cover;
     z-index: -1;
 }
+
+/* Media queries para vista móvil */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+}
