@@ -142,22 +142,64 @@ footer {
 
 
 /* para celular */
-@media (max-width: 767px) {
-  body {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto auto;
-    grid-template-areas:
-      "header"
-      "main"
-      "section"
-      "aside"
-      "footer";
-  }
+/* Estilos generales */
 
-  aside {
-    padding: 20px;
+/* Estilos para la vista móvil */
+@media (max-width: 767px) {
+  /* Ocultar la lista de menú en la vista móvil */
+  nav ul {
+    display: none;
+  }
+  
+  /* Estilos para el botón del menú desplegable */
+  .navbar-toggler {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('ruta-a-tu-icono.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  /* Mostrar la lista de menú al hacer clic en el botón */
+  .navbar-collapse {
+    display: none;
+  }
+  
+  .navbar-collapse.show {
+    display: block;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(82, 109, 130);
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .navbar-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-nav li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
   }
 }
+
 
 /*  para tablets */
 @media (min-width: 768px) and (max-width: 991px) {
