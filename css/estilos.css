@@ -67,18 +67,18 @@ section.panel {
 }
 
 /* Estilos para el aside en la vista de escritorio */
-.aside {
+aside {
   flex: 0 0 30%;
   margin-left: auto;
   background-color: #f9f9f9;
   padding: 20px;
 }
 
-.aside img {
+aside img {
   width: 100%;
 }
 
-.aside .btn-primary {
+aside .btn-primary {
   width: 100%;
   margin-top: 10px;
 }
@@ -117,7 +117,7 @@ section.panel {
   }
 
   /* Estilos para el aside en la vista móvil */
-  .aside {
+  aside {
     float: none;
     width: 100%;
     margin-left: 0;
