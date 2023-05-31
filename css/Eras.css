@@ -21,19 +21,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("/Entrega2/images/fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
   max-width: 960px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 footer {
   grid-row: 3;
   width: 100%;
-  padding: 10px 0; 
-  color: white; 
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
 
 .card {
@@ -46,10 +51,11 @@ footer {
 }
 
 .card-body {
-  text-align: center; 
+  text-align: center;
 }
 
 .card-title {
   margin-top: 10px;
   font-size: 18px;
+  color: #333; /* Color del texto del título de la tarjeta */
 }
