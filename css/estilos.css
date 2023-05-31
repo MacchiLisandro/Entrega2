@@ -146,7 +146,28 @@ footer {
   }
 
   aside {
-    order: 5; /* Cambia el orden para que el aside aparezca debajo en la vista móvil */
+    order: 5; /* aside adebajo en  vista movil */
     padding: 10px;
   }
+  @media (max-width: 768px) {
+    aside {
+      order: 4;
+    }
+  }
+  
+
+
+}
+.navbar-nav {
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link {
+  display: block;
+  padding: 5px;
 }
