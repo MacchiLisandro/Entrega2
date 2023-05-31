@@ -69,7 +69,9 @@ section.panel {
 
 /* Estilos para el aside */
 aside {
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 30%;
   margin-left: 20px;
 }
@@ -88,6 +90,7 @@ aside img {
   width: 100%;
   margin-top: 10px;
 }
+
 
 /* Estilos para la vista móvil */
 
