@@ -22,9 +22,8 @@ header {
   padding: 10px 30px;
 }
 
-header img {
-  height: 100px;
-  width: 100px;
+header h1 {
+  color: white;
 }
 
 nav ul {
@@ -66,10 +65,24 @@ section {
   align-items: center;
 }
 
-.imagen-aleacion {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.articulos {
+  background-color: rgb(122, 122, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.articulos .row {
+  justify-content: center;
 }
 
 aside {
@@ -79,7 +92,6 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 aside img {
@@ -109,25 +121,6 @@ aside button:hover {
   background-color: rgb(94, 94, 93);
 }
 
-.articulos {
-  background-color: rgb(122, 122, 141);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.articulos article {
-  margin: 10px;
-}
-
-.Card {
-  font-family: serif;
-  background-color: rgb(157, 178, 191);
-  margin: 10px;
-  padding: 10px 20px;
-}
-
 footer {
   grid-area: footer;
   background-color: rgb(52, 75, 75);
@@ -140,74 +133,20 @@ footer {
   text-align: center;
 }
 
-
-/* para celular */
-/* Estilos generales */
-
-/* Estilos para la vista móvil */
-@media (max-width: 767px) {
-  /* Ocultar la lista de menú en la vista móvil */
-  nav ul {
-    display: none;
-  }
-  
-  /* Estilos para el botón del menú desplegable */
-  .navbar-toggler {
-    display: block;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-  }
-  
-  .navbar-toggler-icon {
-    width: 20px;
-    height: 20px;
-    background-image: url('ruta-a-tu-icono.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  /* Mostrar la lista de menú al hacer clic en el botón */
-  .navbar-collapse {
-    display: none;
-  }
-  
-  .navbar-collapse.show {
-    display: block;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(82, 109, 130);
-    padding: 10px;
-    margin-top: 10px;
-  }
-  
-  .navbar-nav li {
-    margin-bottom: 10px;
-  }
-  
-  .navbar-nav li:last-child {
-    margin-bottom: 0;
-  }
-  
-  .navbar-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-}
-
-
-/*  para tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Media query para ajustar el diseño en la vista móvil */
+@media (max-width: 768px) {
   body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
     grid-template-areas:
-      "header header header header header"
-      "main main main aside aside"
-      "section section section aside aside"
-      "footer footer footer footer footer";
+      "header"
+      "main"
+      "section"
+      "aside";
+  }
+
+  aside {
+    order: 5; /* Cambia el orden para que el aside aparezca debajo en la vista móvil */
+    padding: 10px;
   }
 }
