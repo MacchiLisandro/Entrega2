@@ -13,8 +13,10 @@ body {
 
 .navbar {
   grid-row: 1;
-  width: 100%;
+  max-width: 80%; /* Modifica este valor según tus necesidades */
+  margin: 0 auto; /* Para centrar la barra de navegación */
 }
+
 
 .panel.inicial {
   grid-row: 2;
@@ -68,9 +70,4 @@ body {
   .card-columns {
     column-count: 3;
   }
-}
-.navbar {
-  grid-row: 1;
-  max-width: 80%; /* Modifica este valor según tus necesidades */
-  margin: 0 auto; /* Para centrar la barra de navegación */
 }
