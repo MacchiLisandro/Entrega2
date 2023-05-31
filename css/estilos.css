@@ -1,5 +1,3 @@
-/* Estilos para la vista de escritorio */
-
 /* Estilos generales */
 * {
   padding: 0;
@@ -17,6 +15,7 @@ body {
   padding: 20px;
 }
 
+/* Estilos para la vista de escritorio */
 /* Estilos para el encabezado */
 header {
   background-color: #f8f8f8;
@@ -67,7 +66,7 @@ section.panel {
   color: #333;
 }
 
-/* Estilos para el aside */
+/* Estilos para el aside en la vista de escritorio */
 .aside {
   flex: 0 0 30%;
   margin-left: auto;
@@ -85,9 +84,8 @@ section.panel {
 }
 
 /* Estilos para la vista móvil */
-
-/* Estilos específicos para móvil */
 @media (max-width: 767px) {
+  /* Estilos específicos para móvil */
   .container {
     padding: 10px;
   }
@@ -118,7 +116,8 @@ section.panel {
     font-size: 16px;
   }
 
-  aside {
+  /* Estilos para el aside en la vista móvil */
+  .aside {
     float: none;
     width: 100%;
     margin-left: 0;
