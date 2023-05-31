@@ -133,7 +133,7 @@ footer {
   text-align: center;
 }
 
-/* Media query para ajustar el diseño en la vista móvil */
+/* Media query para ajustar el diseño en la vista movil */
 @media (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
@@ -146,17 +146,9 @@ footer {
   }
 
   aside {
-    order: 5; /* aside adebajo en  vista movil */
+    order: 5; /* aside  debajo en  vista movil */
     padding: 10px;
   }
-  @media (max-width: 768px) {
-    aside {
-      order: 4;
-    }
-  }
-  
-
-
 }
 .navbar-nav {
   flex-direction: column;
@@ -170,4 +162,9 @@ footer {
 .navbar-nav .nav-link {
   display: block;
   padding: 5px;
+}
+@media (max-width: 768px) {
+  aside {
+    order: 4;
+  }
 }
