@@ -26,11 +26,14 @@ body {
 .container {
   max-width: 960px;
   width: 100%;
+  margin: 0 auto; 
 }
 
 footer {
   grid-row: 3;
   width: 100%;
+  padding: 10px 0; 
+  color: white; 
 }
 
 .card {
@@ -40,6 +43,10 @@ footer {
 .card-img-top {
   height: 300px;
   object-fit: cover;
+}
+
+.card-body {
+  text-align: center; 
 }
 
 .card-title {
