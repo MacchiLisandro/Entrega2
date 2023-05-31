@@ -64,3 +64,10 @@ footer p {
   width: 30px;
   margin-right: 10px;
 }
+
+@media (max-width: 767px) {
+  .logo {
+    width: 50px;
+    margin-right: 0;
+  }
+}
