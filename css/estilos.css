@@ -16,6 +16,27 @@ header {
   padding: 10px;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Estilos de la navegación */
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #000;
+  margin-right: 15px;
+}
+
 /* Estilos del contenido principal */
 .panel {
   padding: 50px 0;
@@ -33,6 +54,15 @@ header {
   margin-bottom: 15px;
 }
 
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
 /* Estilos del aside */
 aside {
   background-color: #f8f9fa;
@@ -41,6 +71,16 @@ aside {
 
 .float-md-right {
   float: right;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  margin-top: 10px;
 }
 
 /* Estilos del pie de página */
