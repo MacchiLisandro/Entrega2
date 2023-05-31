@@ -108,7 +108,8 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  .col-md-4 {
-    width: 33.33%;
+  .col-md-3 {
+    width: 25%;
   }
 }
+
