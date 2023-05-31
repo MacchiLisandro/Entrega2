@@ -9,7 +9,7 @@ body {
   justify-content: center;
 }
 
-.container .col-md-6 {
+.container .col-sm-6 {
   border-radius: 10px;
   flex: 0 0 50%;
   max-width: 50%;
@@ -24,15 +24,15 @@ p {
   color: aliceblue;
 }
 
-.container .col-md-6 img {
+.container .col-sm-6 img {
   border-radius: 10px;
   width: 100%;
   height: auto;
   object-fit: cover; /* Para ajustar la imagen */
 }
 
-.container .col-md-6 h3,
-.container .col-md-6 p {
+.container .col-sm-6 h3,
+.container .col-sm-6 p {
   text-align: center;
 }
 
