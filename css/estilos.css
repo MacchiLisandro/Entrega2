@@ -78,19 +78,9 @@ body {
 }
 
 .aside-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #f8f9fa;
-  padding: 30px;
-}
-
-.aside-right nav {
-  margin-bottom: 20px;
-}
-
-.aside-right .btn {
-  width: 100%;
+  float: right;
+  width: 25%;
+  /* Otros estilos que desees aplicar al aside */
 }
 
 footer {
@@ -112,4 +102,3 @@ footer p {
     width: 25%;
   }
 }
-
