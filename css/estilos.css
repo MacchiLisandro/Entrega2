@@ -68,9 +68,12 @@ section.panel {
 
 /* Estilos para el aside en la vista de escritorio */
 aside {
+  flex: 0 0 30%;
+  margin-left: auto;
   background-color: #f9f9f9;
   padding: 20px;
 }
+
 aside img {
   width: 100%;
 }
