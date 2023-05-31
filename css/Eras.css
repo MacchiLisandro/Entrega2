@@ -69,3 +69,8 @@ body {
     column-count: 3;
   }
 }
+.navbar {
+  grid-row: 1;
+  max-width: 80%; /* Modifica este valor según tus necesidades */
+  margin: 0 auto; /* Para centrar la barra de navegación */
+}
