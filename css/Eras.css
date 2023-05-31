@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/Entrega2/images/fondo.jpg"); /* Ruta de la imagen de fondo */
+  background-image: url("/Entrega2/images/fondo.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -30,15 +30,6 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-}
-
-footer {
-  grid-row: 3;
-  width: 100%;
-  padding: 10px 0;
-  background-color: #333;
-  color: white;
-  text-align: center;
 }
 
 .card {
@@ -57,5 +48,24 @@ footer {
 .card-title {
   margin-top: 10px;
   font-size: 18px;
-  color: #333; /* Color del texto del título de la tarjeta */
+  color: #333;
+}
+
+.footer {
+  grid-row: 3;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .panel.inicial {
+    align-items: center;
+  }
+  
+  .card-columns {
+    column-count: 3;
+  }
 }
