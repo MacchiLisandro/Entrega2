@@ -68,29 +68,21 @@ section.panel {
 }
 
 /* Estilos para el aside */
-aside {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 30%;
-  margin-left: 20px;
+.aside {
+  flex: 0 0 30%;
+  margin-left: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-aside img {
+.aside img {
   width: 100%;
-  height: auto;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.btn-primary {
-  display: block;
+.aside .btn-primary {
   width: 100%;
   margin-top: 10px;
 }
-
 
 /* Estilos para la vista móvil */
 
