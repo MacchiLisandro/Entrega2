@@ -12,9 +12,12 @@ body {
 }
 
 .navbar {
+  display: flex;
+  flex-direction: row ;
   grid-row: 1;
   max-width: 80%; /* Modifica este valor según tus necesidades */
   margin: 0 auto; /* Para centrar la barra de navegación */
+
 }
 
 
